@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-subdomain-routing",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./dist/module.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "nuxt-module-build",
+    "dev": "nuxt-module-dev",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.10.0"
+  },
+  "devDependencies": {
+    "nuxt": "^3.10.0"
+  }
+}
